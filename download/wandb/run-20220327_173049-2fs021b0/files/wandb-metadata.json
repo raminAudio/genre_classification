@@ -1,0 +1,31 @@
+{
+    "os": "macOS-12.3-x86_64-i386-64bit",
+    "python": "3.10.2",
+    "heartbeatAt": "2022-03-28T00:30:50.137027",
+    "startedAt": "2022-03-28T00:30:49.393416",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true",
+        "--artifact_name",
+        "raw_data.parquet",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Data as downloaded"
+    ],
+    "state": "running",
+    "program": "/Users/raminanushiravani/Desktop/udacity_devop/genre_classification/download/download_data.py",
+    "codePath": "download/download_data.py",
+    "git": {
+        "remote": "https://github.com/raminAudio/genre_classification.git",
+        "commit": "a305b09456ee79ebed32cc4c097aa32770add83d"
+    },
+    "email": null,
+    "root": "/Users/raminanushiravani/Desktop/udacity_devop/genre_classification",
+    "host": "Ramins-MBP.attlocal.net",
+    "username": "raminanushiravani",
+    "executable": "/Users/raminanushiravani/miniconda3/envs/mlflow-4b67c93d2a95df2e00cbf3c9f644d2e3dada00e0/bin/python"
+}

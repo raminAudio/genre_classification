@@ -20,8 +20,8 @@ def go(config: DictConfig):
         # This was passed on the command line as a comma-separated list of steps
         steps_to_execute = config["main"]["execute_steps"].split(",")
     else:
-        assert isinstance(config["main"]["execute_steps"], list)
-        steps_to_execute = config["main"]["execute_steps"]
+
+        steps_to_execute = list(config["main"]["execute_steps"])
 
     # Download step
     if "download" in steps_to_execute:
@@ -74,7 +74,6 @@ def go(config: DictConfig):
             },
         )
 
-
     if "random_forest" in steps_to_execute:
         # Serialize decision tree configuration
         model_config = os.path.abspath("random_forest_config.yml")
@@ -105,7 +104,6 @@ def go(config: DictConfig):
                 "test_data": "data_test.csv:latest"
             },
         )
-
 
 
 if __name__ == "__main__":

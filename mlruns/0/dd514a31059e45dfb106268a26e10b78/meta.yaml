@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/raminanushiravani/Desktop/udacity_devop/genre_classification/mlruns/0/dd514a31059e45dfb106268a26e10b78/artifacts
+end_time: 1648427276544
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: dd514a31059e45dfb106268a26e10b78
+run_uuid: dd514a31059e45dfb106268a26e10b78
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1648427264195
+status: 3
+tags: []
+user_id: raminanushiravani

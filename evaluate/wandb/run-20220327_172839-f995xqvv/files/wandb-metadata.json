@@ -1,0 +1,27 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-03-28T00:28:40.032959",
+    "startedAt": "2022-03-28T00:28:39.241719",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--model_export",
+        "model_export:latest",
+        "--test_data",
+        "data_test.csv:latest"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "evaluate/run.py",
+    "git": {
+        "remote": "https://github.com/raminAudio/genre_classification.git",
+        "commit": "a305b09456ee79ebed32cc4c097aa32770add83d"
+    },
+    "email": null,
+    "root": "/Users/raminanushiravani/Desktop/udacity_devop/genre_classification",
+    "host": "Ramins-MBP.attlocal.net",
+    "username": "raminanushiravani",
+    "executable": "/Users/raminanushiravani/miniconda3/envs/mlflow-9ad98997f01f10ca95d41cc160bcad3e8dac16f6/bin/python"
+}
